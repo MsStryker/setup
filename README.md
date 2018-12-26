@@ -61,7 +61,37 @@ For my client/front-end code, install [VSCode](https://code.visualstudio.com), w
 
 ## Linting
 
-Python: [Flake8](http://flake8.pycqa.org/en/latest/) and/or [PyLint](https://www.pylint.org).
+Linting makes life easier when you work with a team of developers!
+
+- Python: [Flake8](http://flake8.pycqa.org/en/latest/) and/or [PyLint](https://www.pylint.org).
+- JavaScript: [ESLint](https://eslint.org).
+
+
+## CI/CD (Continuous Integration/Continuous Delivery)
+
+[Jenkins](https://jenkins.io) is my go to choice for running tests and deploying applications as it is: 
+
+- open source
+- no additional fees for additional users
+- has many many plugins
+- security can be managed per user (you should make sure it is secured for authentication)
+- you can create a cluster and scale!!!
+- you can build for pretty much any application
+
+The downside of Jenkins is that you have to host and configure yourself (unless you have a service that does it), 
+but once that is done it is fairly easy to maintain. There are ample resource to help you in the setup process 
+should you get stuck!
+
+
+## Hosting
+
+- [AWS](https://aws.amazon.com) (best documenation IMHO)
+- [Google](https://cloud.google.com)
+- [Heroku](https://www.heroku.com)
+- [Linode](https://www.linode.com)
+- [DigitalOcean](https://www.digitalocean.com)
+- [Rackspace](https://www.rackspace.com)
+etc...
 
 
 ## Notes
