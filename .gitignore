@@ -1,0 +1,21 @@
+# Basic files to ignore with git
+# The more complex the project, the more additions you need!
+
+# Settings should ALWAYS be ignored unless you are importing from environment variables
+# NEVER commit secret info into a repo!!!
+settings.py
+
+# Python compiled
+.pyc
+
+# Mac
+.DS_Store
+
+# PyCharm
+.idea
+
+# Log files
+*.log
+
+# PID files
+*.pid
