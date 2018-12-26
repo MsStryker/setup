@@ -38,6 +38,14 @@ I started with just creating virtualenvs and working on my Python applications i
 container is better as it alllows you to deploy to any type of instance and other developers can use the containers in 
 their preferred operating system. Plus, if you have a Python application that requires Postgres, Redis, Celery, Celery Beat, and Django, you can have a docker image for each setup and your `docker-compose.yml` will get all these setup for you in one go instead of starting each one separately on your system. Note: more to come on how to do that!
 
+Install [PostgreSQL](https://www.postgresql.org). This has many advantages over MySQL, and some disadvantages, but 
+overall it has become my default DB. You can install the [Postgres.app](https://postgresapp.com).
+
+Install with brew:
+
+    $ brew install postgresql
+    
+
 ### Containers
 
 1. [Docker](https://www.docker.com/products/docker-desktop) because everyone is doing it!
