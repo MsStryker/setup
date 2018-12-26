@@ -55,16 +55,18 @@ Install with brew:
 
 ## IDEs
 
-For my Python applications, install [PyCharm](https://www.jetbrains.com/pycharm/). This is still my top choice for Python!
+1. For my Python applications, install [PyCharm](https://www.jetbrains.com/pycharm/). This is still my top choice for Python!
 
-For my client/front-end code, install [VSCode](https://code.visualstudio.com), with the following extensions:
+Always set `Preferences` > `Editor` > `General` > `Other` > "Ensure line feed at file end on Save".
 
-- Docker
-- ESList
-- GitLens
-- Material Icon Theme
-- npm
-- Python (optional: `brew install ctags`)
+2. For my client/front-end code, install [VSCode](https://code.visualstudio.com), with the following extensions:
+
+    - Docker
+    - ESList
+    - GitLens
+    - Material Icon Theme
+    - npm
+    - Python (optional: `brew install ctags`)
 
 
 ## Linting
